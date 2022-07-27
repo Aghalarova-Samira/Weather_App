@@ -1,0 +1,102 @@
+
+.SingleCityPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.degree{
+    width: 10%;
+    height: 100%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.weather-icon{
+    font-size: 90px;
+}
+
+.degree p{
+    font-size: 20px;
+}
+
+.city-name{
+    width: 10%;
+    height: 100%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.city-name h2{
+    margin-bottom: 8px;
+}
+
+.city-name .deg{
+    font-size: 14px;
+}
+
+
+.deg.a{
+    color: rgb(58, 58, 58);
+}
+
+.deg.b{
+    color: rgb(222, 222, 222);
+   
+}
+
+.middle{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle .cat{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+
+
+.chart{
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.bottom{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.bottom .day{
+    width: 15%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

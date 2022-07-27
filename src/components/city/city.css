@@ -1,0 +1,45 @@
+.city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    border: rgb(20, 155, 155)solid 2px;
+    margin-left: 65px;
+    border-radius: 5%;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(20, 155, 155) ;
+    color: whitesmoke;
+    outline: none;
+    position: relative;
+    z-index: 1;
+   
+}
+
+
+
+.city:hover {
+    cursor: pointer;
+}
+
+.city:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color:rgb(15, 8, 51);
+
+}
+
+.city:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}

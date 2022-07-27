@@ -1,0 +1,8 @@
+.citiesList{
+    width: 90%;
+    margin-top: 50px;
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
